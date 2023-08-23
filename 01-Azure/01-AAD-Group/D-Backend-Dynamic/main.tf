@@ -17,5 +17,5 @@ data "azuread_user" "axa_aaduser" {
 resource "azuread_group_member" "axa_aadgroupmember" {
   count                     = length(azuread_group.axa_aadgroup.*.id)
   group_object_id           = azuread_group.axa_aadgroup[count.index].id
-  member_object_id          = data.azuread_user.axa_aaduser.*.object_ids
+  member_object_id          = data.azuread_user.axa_aaduser[count.index].object_id
 }

@@ -1,4 +1,4 @@
-# BRAINSTORMING:-
+# GITHUB BRANCHING STRATEGY:-
 
 Hello All, Welcome to the Github Branching Strategy of __ARINDAM MITRA__ and __ANAND ARBONE__ 👋
 

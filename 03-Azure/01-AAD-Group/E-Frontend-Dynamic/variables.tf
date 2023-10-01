@@ -1,5 +1,5 @@
-variable "display_name" {
-  type        = string
+variable "display_names" {
+  type        = list(string)
   description = "The name of the aad group."
 }
 
@@ -18,11 +18,7 @@ variable "prevent_duplicate_names"  {
   description = "Prevent Duplicate Name in Directory Service."
 }
 
-variable "user_principal_name" {
-  type        = string
+variable "user_principal_names" {
+  type        = list(string)
   description = "The name of the user."
 }
-
-
-
-

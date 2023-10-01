@@ -19,7 +19,7 @@ variable "sku" {
 }
 
 variable "retention_in_days" {
-  type        = string
+  type        = number
   description = "The retention period of log analytics workspace."
 }
 

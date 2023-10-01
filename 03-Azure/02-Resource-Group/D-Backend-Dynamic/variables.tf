@@ -1,4 +1,4 @@
-variable "name" {
+variable "names" {
   type        = list(string)
   description = "The name of the resource groups."
 }

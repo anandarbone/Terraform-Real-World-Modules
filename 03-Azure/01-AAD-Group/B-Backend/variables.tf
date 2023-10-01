@@ -4,7 +4,7 @@ variable "display_name" {
 }
 
 variable "owners" {
-  type        = string
+  type        = list(string)
   description = "The name of the owner of the group."
 }
 

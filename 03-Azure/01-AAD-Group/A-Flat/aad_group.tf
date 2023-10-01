@@ -11,7 +11,7 @@ terraform {
 # Create Azure AD Security Group and Add an Onwer to the Group:-
 resource "azuread_group" "axa_aadgroup" {
   display_name              = "axa-aad-group-01"
-  owners                    = "axa-admin@mitra008.onmicrosoft.com"
+  owners                    = ["3c3c1bc3-9ade-47c7-8603-5063d3219248"] # Object IDs
   security_enabled          = true
   prevent_duplicate_names   = true
 }
@@ -26,5 +26,3 @@ resource "azuread_group_member" "axa_aadgroupmember" {
   group_object_id  = azuread_group.axa_aadgroup.id
   member_object_id = data.azuread_user.axa_aaduser.id
 }
-
-

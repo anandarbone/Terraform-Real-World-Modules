@@ -1,3 +1,3 @@
 output "axa_loga_id" {
-  value = azurerm_resource_group.axa_loga.id
+  value = azurerm_log_analytics_workspace.axa_loga.id
 }

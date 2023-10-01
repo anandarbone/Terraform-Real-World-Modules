@@ -1,3 +1,3 @@
 output "axa_umid_ids" {
-  value = azurerm_resource_group.axa_umid.*.id
+  value = azurerm_user_assigned_identity.axa_umid.*.id
 }

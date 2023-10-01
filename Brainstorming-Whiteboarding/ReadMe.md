@@ -2,6 +2,10 @@
 
 Hello All, Welcome to the Brainstorming Session of __ARINDAM MITRA__ and __ANAND ARBONE__ 👋
 
+__Below follows reference screenshots of all our discussions over whiteboard.__
+
+__The conclusion are the Terraform Modules.__
+
 | __REFERENCE PICTURES:-__ |
 | ----------- |
 | <img src="Images/1-Github-PR-Flowchart.jpg" alt="Github PR Flowchart"> |
